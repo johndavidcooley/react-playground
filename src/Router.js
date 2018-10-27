@@ -9,6 +9,7 @@ const Router = () => (
     <Switch>
       <Route exact path="/" component={App}></Route>
       <Route exact path="/google-maps" component={GoogleMaps}></Route>
+      <Route exact path="/lifecycle-methods" component={LifecycleMethods}></Route>
     </Switch>
   </BrowserRouter>
 )
