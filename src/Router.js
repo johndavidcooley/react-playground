@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import App from './App';
 import GoogleMaps from './GoogleMaps/GoogleMaps';
+import LifecycleMethods from './LifecycleMethods/LifecycleMethods';
 
 const Router = () => (
   <BrowserRouter>
