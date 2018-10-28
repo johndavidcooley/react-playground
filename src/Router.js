@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import App from './App';
 import GoogleMaps from './GoogleMaps/GoogleMaps';
 import LifecycleMethods from './LifecycleMethods/LifecycleMethods';
+import Transitions from './Transitions/Transitions';
 
 const Router = () => (
   <BrowserRouter>
@@ -11,6 +12,7 @@ const Router = () => (
       <Route exact path="/" component={App}></Route>
       <Route exact path="/google-maps" component={GoogleMaps}></Route>
       <Route exact path="/lifecycle-methods" component={LifecycleMethods}></Route>
+      <Route exact path="/transitions" component={Transitions}></Route>
     </Switch>
   </BrowserRouter>
 )

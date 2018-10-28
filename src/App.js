@@ -10,6 +10,7 @@ class App extends Component {
         <div>React Playground</div>
         <Project routeTo="google-maps" projectName="Google Maps" />
         <Project routeTo="lifecycle-methods" projectName="Lifecycle Methods" />
+        <Project routeTo="transitions" projectName="Transitions" />
       </div>
     );
   }
