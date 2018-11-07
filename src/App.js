@@ -11,6 +11,7 @@ class App extends Component {
         <Project routeTo="google-maps" projectName="Google Maps" />
         <Project routeTo="lifecycle-methods" projectName="Lifecycle Methods" />
         <Project routeTo="transitions" projectName="Transitions" />
+        <Project routeTo="css-flip-animations" projectName="CSS Flip Animations" />
       </div>
     );
   }

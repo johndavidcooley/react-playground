@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class LifecycleMethods extends Component {
+export default class CSSFlipAnimations extends Component {
   render() {
     return (
       <div>
-        Lifecycle Methods
+        CSS Flip Animations
       </div>
     )
   }
